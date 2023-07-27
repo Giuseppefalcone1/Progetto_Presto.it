@@ -28,25 +28,28 @@ window.addEventListener(`scroll` , ()=>{
 
 });
 
-let number1 = querySelector("#number1")
+// let number1 = querySelector("#number1")
 
-let number2 = querySelector("#number2")
+// let number2 = querySelector("#number2")
 
-let number3 = querySelector("#number3")
+// let number3 = querySelector("#number3")
 
-let counter = 0
+// let counter = 0
 
-let interval = setInterval(()=>{
+// let interval = setInterval(()=>{
     
-    if(counter < 100){
+//     if(counter < 100){
 
-        counter++
+//         counter++
 
-        number1.innerHTML = counter ;
+//         number1.innerHTML = counter ;
 
-    }
+//     }else{
 
-}100);
+//         clearInterval
+//     }
+
+// }100);
 
 
 
