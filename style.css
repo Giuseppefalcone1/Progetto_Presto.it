@@ -1,26 +1,23 @@
+:root{
+
+    --blackCustom: rgb(22, 22, 22);
+    --redCustom: rgba(151, 21, 12, 0.5);
+    --whiteCustom: rgb(235,235,235);
+    --yellowCustom: rgb(203, 248, 0);
+}
+/* PROMEMORIA IMPORTANTE QUELLO CHE STA SOTTO VEDE QUELLO CHE STA SOPRA
+SE AD ESEMPIO IL SELETTORE UNVERASALE E SOPRA, NON VEDRA LA VARIABIE WHITECUSTOM */
 *{
     font-family: 'Roboto Condensed', sans-serif;
     color: var(--whiteCustom);
-}
-
-a{
-
-    color: white !important;
-
+    
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Anton', sans-serif;
 }
 
-:root{
 
-    --blackCustom: rgb(22, 22, 22);
-    --redCustom: rgba(151, 21, 12, 0.5);
-    --whiteCustom: rgb(235,235,235);
-    --yellowCustom: 
-
-}
 
 body{
 
@@ -44,10 +41,11 @@ background-color: black ;
 
 header{
 
-    background: linear-gradient( rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0)), url(./media/sfondoHeader.jpg)  ;
+    background: linear-gradient( rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(./media/sfondoHeader.jpg)  ;
     background-position: center ;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
@@ -56,7 +54,7 @@ h1{
     
     font-size:90px;
     font-stretch: expanded
-    
+    /* text-shadow: 2px 2px red; */
 }
 
 .navbar-scroll{
@@ -67,8 +65,54 @@ h1{
 
 }
 
+.container-img1{
+
+    background-image: linear-gradient(163deg, #ff0000 30%, #0f00e7 60%);
+    border-radius: 20px;
+    transition: all .3s;
+    border: 0px;
+
+}
+
 .img-fluid{
 
     border-radius: 20px;
+    transition: all 0.5s;
 
 }
+
+.img-fluid:hover{
+
+    box-shadow: 0px 0px 25px 1px rgb(111, 0, 255);
+    transform: scale(0.98);
+    border-radius: 20px;
+
+}
+
+/* card animata  */
+    /* .card {
+        width: 190px;
+        height: 254px;
+        background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+        border-radius: 20px;
+        transition: all .3s;
+        border: 0px;
+    }
+    
+    .card2 {
+        width: 190px;
+        height: 254px;
+        background-color: #1a1a1a;
+        border-radius: 10px;
+        transition: all .2s;
+    }
+    
+    .card2:hover {
+        transform: scale(0.98);
+        border-radius: 20px;
+    }
+    
+    .card:hover {
+        box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+    } */
+/* fine card animata */

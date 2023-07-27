@@ -8,25 +8,25 @@ let divimg1 = document.querySelector("#divImmagine1");
 
 window.addEventListener(`scroll` , ()=>{
 
-    // function changeNav(){}
+    // function scroll_Nav(){}
 
     let scrolled = window.scrollY;
 
     if(scrolled > 0){
 
         navbarMain.classList.add("navbar-scroll");
-        // links.forEach((link)=>{
-        //     link.style.color = var(--yellowCustom);
+        links.forEach((link)=>{
+            link.style.color = "var(--yellowCustom)";
         
-        // })
+        })
 
     }else{
 
         navbarMain.classList.remove("navbar-scroll");
 
-        // links.forEach((link)=>{
-        //     link.style.color = var(--yellowCustom);
-        // })
+        links.forEach((link)=>{
+            link.style.color = "white";
+        })
     };
 
 
