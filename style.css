@@ -5,8 +5,8 @@
     --whiteCustom: rgb(235,235,235);
     --yellowCustom: rgb(203, 248, 0);
 }
-/* PROMEMORIA IMPORTANTE QUELLO CHE STA SOTTO VEDE QUELLO CHE STA SOPRA
-SE AD ESEMPIO IL SELETTORE UNVERASALE E SOPRA, NON VEDRA LA VARIABIE WHITECUSTOM */
+
+
 *{
     font-family: 'Roboto Condensed', sans-serif;
     color: var(--whiteCustom);
@@ -30,6 +30,7 @@ background-color: black ;
     background-color: transparent;
     font-size: 20px;
     transition: 0.8s;
+    color: var(--whiteCustom);
 
 }
 
