@@ -113,6 +113,15 @@ h1{
 
 }
 
+/* swiper */
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+
+
+
 /* card animata  */
     /* .card {
         width: 190px;
