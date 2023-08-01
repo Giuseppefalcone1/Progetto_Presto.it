@@ -79,17 +79,17 @@ fetch(`./annunci.json`).then((response)=>response.json()).then((data)=>{
 
     ShowCards(data);
 
-    let radios = document.querySelectorAll(".form-check-input");
+    // let radios = document.querySelectorAll(".form-check-input");
     
-    function filterByCategory (array){
+    // function filterByCategory (array){
 
-        let checked = Array.from(radios).find((button)=> button.checked);
+    //     let checked = Array.from(radios).find((button)=> button.checked);
         
-        return checked
+    //     return checked
 
         
-    }
-    filterByCategory();
+    // }
+    // filterByCategory();
 
 
 
