@@ -1,7 +1,7 @@
 :root{
 
     --blackCustom: rgb(22, 22, 22);
-    --redCustom: rgba(185, 12, 0, 0.651);
+    --greyCustom: rgba(82, 82, 82, 0.685);
     --whiteCustom: rgb(235,235,235);
     --yellowCustom: rgb(203, 248, 0);
 }
@@ -63,10 +63,10 @@ h1{
     
 }
 
-.navbarRed{
+.navbarGrey{
 
     backdrop-filter: blur(9px)  saturate(1.4);
-    background-color: var(--redCustom);
+    background-color: var(--greyCustom);
     
     
 

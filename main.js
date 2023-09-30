@@ -10,7 +10,7 @@ window.addEventListener(`scroll` , ()=>{
 
     if(scrolled > 0){
 
-        navbarMain.classList.add("navbarRed");
+        navbarMain.classList.add("navbarGrey");
         links.forEach((link)=>{
             link.style.color = "var(--yellowCustom)";
 
@@ -18,7 +18,7 @@ window.addEventListener(`scroll` , ()=>{
 
     }else{
 
-        navbarMain.classList.remove("navbarRed");
+        navbarMain.classList.remove("navbarGrey");
         links.forEach((link)=>{
             link.style.color = "white";
 
